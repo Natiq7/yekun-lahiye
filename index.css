@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Serif+Georgian:wght@400;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.header-box {
+    height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: maroon;
+}
+
+.header-ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+
+}
+
+.header-ul li :hover {
+  position: relative;
+  bottom: 2px;
+  transition: 0.5s;
+}
+
+.header-ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*  Marka ,qiymet araligi */
+.marka-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  z-index: 1;
+  outline: none;
+
+}
+
+.marka-select::-ms-expand {
+  display: none;
+
+}
+
+.select {
+  display: grid;
+  grid-template-areas: "select";
+  align-items: center;
+  position: relative;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+.select select,
+.select::after {
+  grid-area: select;
+}
+
+/* AVTO */
+
+.avto {
+  margin-left: 40px;
+}
+
+.avto h2 {
+  margin-top: 143px;
+  width: 524.15px;
+  font-family: 'Roboto Slab';
+  font-size: 32px;
+}
+
+.avto-div {
+  width: 100%;
+  margin-left: -37px;
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.avto-box {
+  margin-left: 21px;
+  margin-top: 23px;
+  width: 229px;
+  height: 320px;
+  background: #FFFFFF;
+  box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+}
+
+.avto-img {
+  width: 229px;
+}
+
+.avto-img img {
+  width: 100%;
+  border-radius: 17px;
+  border-top-left-radius: 17px;
+}
+
+.avto-box h4 {
+  margin-left: 11px;
+  margin-top: 2px;
+  width: 211.4px;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.avto-box p {
+  margin-left: 11px;
+  margin-top: 5px;
+  width: 211.4px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
