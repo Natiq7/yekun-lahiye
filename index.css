@@ -46,9 +46,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #ebedf3;
 }
-
-
 .marka-select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -94,7 +93,7 @@
 }
 
 
-.marka-input , .model-input {
+.marka-input , .guc-input {
   padding: 3px;
   margin-top: 5px;
   display: flex;
@@ -116,7 +115,7 @@
   display: flex;
 }
 
-.model-select, .valyuta-select {
+.model-select, .valyuta-select, .seher-select, .il-araliq {
   display: grid;
   grid-template-areas: "select";
   align-items: center;
@@ -133,7 +132,63 @@
   background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
 }
 
+.guc-box{
+  width: 150px;
+}
 
+.guc-input{
+  width: 150px;
+  border-radius: 5px;
+}
+
+/* Istifade, yurus araligi */
+
+
+.istifade-ul {
+  display: flex;
+  align-items: center;
+}
+
+.istifade-li {
+  list-style-type: none;
+  color: #777;
+  width: 65px;
+  height: 28px
+}
+
+
+.istifade-li:hover {
+  background-color: maroon;
+  transition: 0.5s;
+}
+
+.istifade-btn{
+  border: none;
+  width: 25%;
+  height: 100%;
+}
+
+.istifade-li  button {
+  width: 100%;
+}
+
+.yurus-input{
+  margin-top: 10px;
+  width: 150px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* herekete keciren btnlar */
+
+.reset button, .axtaris button{
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 10px;
+}
 
 /* AVTO  */
 
@@ -195,6 +250,7 @@
 
 footer {
   margin-top: 20px;
-  height: 50px;
   background-color: black;
 }
+
+

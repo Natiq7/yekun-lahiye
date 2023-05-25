@@ -47,86 +47,102 @@
                             <input class="marka-input m2" type="text" placeholder="Max qiymət">
                         </div>
                     </div>
-                    <!-- Model ,azn ,at gucu araligi -->
-                    <div class="model-valyuta">
-                        <div class="model-box">
-                            <div class="model">
-                                <select class="model-select">
-                                    <option value="">Model</option>
-                                    <option value="Option 1">W140</option>
-                                    <option value="Option 2">w204</option>
-                                    <option value="Option 3">Audi</option>
-                                    <option value="Option 4">KIA</option>
-                                    <option value="Option 5">Toyota</option>
-                                    <option value="Option 5">Lada</option>
-                                    <option value="Option length">a</option>
-                                </select>
-                                <span class="focus"></span>
-                            </div>
-                            <div>
-                                <select class="valyuta-select">
-                                    <option value="">Valyuta</option>
-                                    <option value="Option 1">AZN</option>
-                                    <option value="Option 2">USD</option>
-                                    <option value="Option length">EUR</option>
-                                </select>
-                                <span class="focus"></span>
-                            </div>
+                    <!-- Model ,azn , -->
+
+                    <div class="model-box">
+                        <div class="model">
+                            <select class="model-select">
+                                <option value="">Model</option>
+                                <option value="Option 1">W140</option>
+                                <option value="Option 2">w204</option>
+                                <option value="Option 3">Audi</option>
+                                <option value="Option 4">KIA</option>
+                                <option value="Option 5">Toyota</option>
+                                <option value="Option 5">Lada</option>
+                                <option value="Option length">a</option>
+                            </select>
+                            <span class="focus"></span>
                         </div>
                         <div>
-                            <input class="model-input" type="text" placeholder="Min at gücü">
-                            <input class="model-input" type="text" placeholder="Max at gücü">
+                            <select class="valyuta-select">
+                                <option value="">Valyuta</option>
+                                <option value="Option 1">AZN</option>
+                                <option value="Option 2">USD</option>
+                                <option value="Option length">EUR</option>
+                            </select>
+                            <span class="focus"></span>
+                        </div>
+
+
+                    </div>
+                    <!--  At gucu araligi-->
+                    <div class="guc-box">
+                        <div>
+                            <input class="guc-input" type="text" placeholder="Min at gücü">
+                            <input class="guc-input" type="text" placeholder="Max at gücü">
                         </div>
                     </div>
                     <!--Istifade, yurus araligi-->
-                    <div>
-                        <div>
-                            <ul>
-                                <li><button></button></li>
-                                <li><button></button></li>
-                                <li><button></button></li>
+                    <div class="istifade-box">
+                        <div class="istifade-div">
+                            <ul class="istifade-ul">
+                                <li class="istifade-li"><button class="istifade-btn">Hamsı</button></li>
+                                <li class="istifade-li"><button class="istifade-btn">Yeni</button></li>
+                                <li class="istifade-li"><button class="istifade-btn">Sürülmüş</button></li>
                             </ul>
                         </div>
                         <div>
-                            <input type="text">
-                            <input type="text">
+                            <input class="yurus-input" type="text" placeholder="Yürüş (km), min.">
+                            <input class="yurus-input" type="text" placeholder="Yürüş (km), max.">
                         </div>
                     </div>
                     <!-- Seher , il araligi -->
-                    <div>
-                        <select>
-                            <option></option>
-                            <option></option>
-                            <option></option>
+                    <div class="Seher-box">
+                        <select class="seher-select">
+                            <option value="">Şərhər</option>
+                            <option value="Option 1">Qəbələ</option>
+                            <option value="Option 2">Bakı</option>
+                            <option value="Option 3">Sumqayıt</option>
+                            <option value="Option 4">Gəncə</option>
+                            <option value="Option 5">Tovuz</option>
+                            <option value="Option 5">Hacıqabul</option>
+                            <option value="Option length">Ağcəbədi</option>
                         </select>
                     </div>
                     <div>
                         <div>
-                            <select>
-                                <option></option>
-                                <option></option>
-                                <option></option>
+                            <select class="il-araliq">
+                                <option value="">İl Min</option>
+                                <option value="Option 1">2023</option>
+                                <option value="Option 2">2022</option>
+                                <option value="Option 3">2021</option>
+                                <option value="Option 4">2020</option>
+                                <option value="Option 5">2019</option>
+                                <option value="Option 5">2018</option>
+                                <option value="Option length">2017</option>
                             </select>
                         </div>
                         <div>
-                            <select>
-                                <option></option>
-                                <option></option>
-                                <option></option>
-                            </select>
-                            <select>
-                                <option></option>
-                                <option></option>
-                                <option></option>
+                            <select class="il-araliq">
+                                <option value="">İl Max</option>
+                                <option value="Option 1">2023</option>
+                                <option value="Option 2">2022</option>
+                                <option value="Option 3">2021</option>
+                                <option value="Option 4">2020</option>
+                                <option value="Option 5">2019</option>
+                                <option value="Option 5">2018</option>
+                                <option value="Option length">2017</option>
                             </select>
                         </div>
                     </div>
-                    <!-- herekete keciren btn -->
-                    <div>
-                        <button type="reset">reset</button>
-                    </div>
-                    <div>
-                        <button></button>
+                    <!-- herekete keciren btnlar -->
+                    <div class="btn-box">
+                        <div class="reset">
+                            <button type="reset">Sıfırla</button>
+                        </div>
+                        <div class="axtaris ">
+                            <button>Axtarış</button>
+                        </div>
                     </div>
                 </div>
             </form>
@@ -286,17 +302,32 @@
                     <p>Qebele, 22.05.2023 12:00</p>
                 </div>
 
-
-
             </div>
         </section>
-
-
     </main>
 
-    <footer>
-
-    </footer>
+    <footer class="footer">
+        <div class="footer-box">
+          <div class="footer-div1">
+            <div class="sosial-sebeke">
+              <img src="./img/insta.svg" alt="instagram">
+              <img class="sebeke" src="./img/fb.png" alt="facebook">
+              <img class="sebeke" src="./img/viber.svg" alt="wp">
+            </div>
+          </div>
+          <div class="elaqe-nom">
+            <p>
+              <img src="./img/phone_white.png" alt="phone white">
+              <a href="tel:+7 (499) 39-146-39">+7 (499) 39-146-39</a>
+            </p>
+            <p>
+              <img src="./img/mail_white.png"mail white">
+              <a href="mailto:hello@synchronize.ru">hello@synchronize.ru</a>
+            </p>
+          </div>
+        </div>
+        <p class="il">© Синхронизация, 2020</p>
+      </footer>
     <script src="index.js"></script>
 </body>
 
