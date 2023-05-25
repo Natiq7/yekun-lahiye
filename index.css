@@ -8,7 +8,7 @@
 
 /* HEADER */
 .header-box {
-    height: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,6 +41,14 @@
 
 
 /*  Marka ,qiymet araligi */
+.marka-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
 .marka-select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -69,9 +77,9 @@
   grid-template-areas: "select";
   align-items: center;
   position: relative;
-  min-width: 15ch;
-  max-width: 30ch;
-  border: 1px solid var(--select-border);
+  min-width: 200px;
+  max-width: 20ch;
+  border: 1px solid black;
   border-radius: 0.25em;
   padding: 0.25em 0.5em;
   font-size: 1.25rem;
@@ -81,12 +89,53 @@
   background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
 }
 
-.select select,
-.select::after {
-  grid-area: select;
+.model-valyuta {
+  width: 300px;
 }
 
-/* AVTO */
+
+.marka-input , .model-input {
+  padding: 3px;
+  margin-top: 5px;
+  display: flex;
+  width: 100px;
+  height: 30px;
+}
+
+.m1 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.m2 {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.model-box {
+  display: flex;
+}
+
+.model-select, .valyuta-select {
+  display: grid;
+  grid-template-areas: "select";
+  align-items: center;
+  position: relative;
+  min-width: 100px;
+  max-width: 20ch;
+  border: 1px solid black;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+
+
+/* AVTO  */
 
 .avto {
   margin-left: 40px;
@@ -142,4 +191,10 @@
   width: 211.4px;
   font-family: 'Roboto';
   font-size: 14px;
+}
+
+footer {
+  margin-top: 20px;
+  height: 50px;
+  background-color: black;
 }
