@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avtosahe{
+
+}
+ .shops-i {
+  display: inline-block;
+  vertical-align: top;
+  width: 465px;
+  height: 145px;
+  box-shadow: rgba(201, 199, 199, 0.66) 0px 0px 3px 2px;
+  transition: box-shadow 0.2s ease 0s, -webkit-box-shadow 0.2s ease 0s;
+  border-radius: 8px;
+}
+
