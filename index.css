@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 1400px;
+  margin: 0 auto;
+}
+
 /* HEADER */
 .header-box {
   height: 60px;
@@ -43,11 +48,13 @@
 /*  Marka ,qiymet araligi */
 .marka-box {
   margin-top: 10px;
+  height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #ebedf3;
 }
+
 .marka-select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -93,7 +100,8 @@
 }
 
 
-.marka-input , .guc-input {
+.marka-input,
+.guc-input {
   padding: 3px;
   margin-top: 5px;
   display: flex;
@@ -115,7 +123,10 @@
   display: flex;
 }
 
-.model-select, .valyuta-select, .seher-select, .il-araliq {
+.model-select,
+.valyuta-select,
+.seher-select,
+.il-araliq {
   display: grid;
   grid-template-areas: "select";
   align-items: center;
@@ -132,11 +143,11 @@
   background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
 }
 
-.guc-box{
+.guc-box {
   width: 150px;
 }
 
-.guc-input{
+.guc-input {
   width: 150px;
   border-radius: 5px;
 }
@@ -157,22 +168,24 @@
 }
 
 
-.istifade-li:hover {
-  background-color: maroon;
-  transition: 0.5s;
-}
 
-.istifade-btn{
+.istifade-btn {
   border: none;
   width: 25%;
   height: 100%;
 }
 
-.istifade-li  button {
+.istifade-btn:hover {
+  background-color: maroon;
+  color: white;
+  transition: 2s;
+}
+
+.istifade-li button {
   width: 100%;
 }
 
-.yurus-input{
+.yurus-input {
   margin-top: 10px;
   width: 150px;
   height: 30px;
@@ -182,7 +195,8 @@
 
 /* herekete keciren btnlar */
 
-.reset button, .axtaris button{
+.reset button,
+.axtaris button {
   width: 60px;
   height: 30px;
   border-radius: 5px;
@@ -192,21 +206,21 @@
 
 /* AVTO  */
 
-.avto {
-  margin-left: 40px;
+.avto-h1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebedf3;
 }
 
-.avto h2 {
-  margin-top: 143px;
-  width: 524.15px;
-  font-family: 'Roboto Slab';
-  font-size: 32px;
+.avto {
+  margin-left: 40px;
 }
 
 .avto-div {
   width: 100%;
   margin-left: -37px;
-  margin-top: 55px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -220,14 +234,36 @@
   background: #FFFFFF;
   box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
   border-radius: 17px;
+  position: relative;
 }
 
+.avto-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+  ;
+}
+
+
+
 .avto-img {
-  width: 229px;
+  width: 230x;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 17px;
 }
 
 .avto-img img {
-  width: 100%;
+  height: 100%;
   border-radius: 17px;
   border-top-left-radius: 17px;
 }
@@ -248,9 +284,39 @@
   font-size: 14px;
 }
 
-footer {
+/* FOOTER */
+
+.footer {
+  height: 200px;
   margin-top: 20px;
   background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
 }
 
 
+.footer-pre {
+  color: white;
+}
+
+
+.sosial-sebeke {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.elaqe-nom img, .ealqe-p2 img {
+
+  vertical-align: middle;
+}
+
+.elaqe-nom img {
+
+  width: 12%;
+}
+
+.elaqe-p2 {
+  margin-top: 5px;
+}
