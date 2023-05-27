@@ -1,19 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .avtosahe{
 
 }
+.shops {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
  .shops-i {
-  display: inline-block;
-  vertical-align: top;
-  width: 465px;
+  width: 30%;
   height: 145px;
+  margin-top: 15px;
   box-shadow: rgba(201, 199, 199, 0.66) 0px 0px 3px 2px;
   transition: box-shadow 0.2s ease 0s, -webkit-box-shadow 0.2s ease 0s;
   border-radius: 8px;
+  display: flex;
+}
+.shops-i img {
+  width: 35%;
+  border-radius: 8px;
 }
 
+.shops-i div {
+  width: 65%;
+}
