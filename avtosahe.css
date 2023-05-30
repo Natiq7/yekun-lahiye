@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-
+.avtosahe-body{
+  background-image: url("./img/avtosaheback..png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .avtosahe{
 
 }
@@ -9,13 +14,20 @@
   justify-content: space-evenly;
 }
  .shops-i {
-  width: 30%;
-  height: 145px;
+  width: 38%;
+  height: 170px;
   margin-top: 15px;
   box-shadow: rgba(201, 199, 199, 0.66) 0px 0px 3px 2px;
   transition: box-shadow 0.2s ease 0s, -webkit-box-shadow 0.2s ease 0s;
   border-radius: 8px;
   display: flex;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.shops-i p{
+  color: rgb(239, 239, 239);
+  font-family: "Outfit" ;
+  padding: 7px;
 }
 .shops-i img {
   width: 35%;
