@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 .avtosahe-body{
-  background-image: url("./img/avtosaheback..png");
+  background-image: url("./img/1900699.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-.avtosahe{
-
+h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: white;
 }
 .shops {
   display: flex;
@@ -21,14 +25,20 @@
   transition: box-shadow 0.2s ease 0s, -webkit-box-shadow 0.2s ease 0s;
   border-radius: 8px;
   display: flex;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .shops-i p{
-  color: rgb(239, 239, 239);
   font-family: "Outfit" ;
   padding: 7px;
 }
+.shops-i a{
+  padding-left: 10px;
+  padding-top: 3px;
+  text-decoration:none;
+  font-size: 20px;
+}
+
 .shops-i img {
   width: 35%;
   border-radius: 8px;
