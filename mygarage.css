@@ -1,4 +1,31 @@
-.my-garage{
-    background-image: url("./img/menim4.jpeg");
 
+.my-garage{
+    background-image: url("./img/a1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
+
+
+.container {
+    background-image: url("./img/menim2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+  }
+  
