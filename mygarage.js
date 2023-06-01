@@ -7,7 +7,8 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
   
     // Perform validation (dummy check)
     if (username === "Babayev" && password === "babayev23") {
-      alert("Login successful");
+      // alert("Login successful");
+      location.href = './mygarage_main.html'
       // Redirect to a new page or perform other actions
     } else {
       alert("Invalid username or password");

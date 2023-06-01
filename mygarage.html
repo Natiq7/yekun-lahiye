@@ -2,47 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="mygarage.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="mygarage.css">
 </head>
 
-<body class="my-garage">
-    <header>
-        <div class="header-box">
-            <h2>Durba.az</h2>
-            <nav class="header-nav">
-                <ul class="header-ul">
-                    <li><a href="./index.html">Ana səhifə</a></li>
-                    <li><a href="./avtosahe.html">Avto sahə</a></li>
-                    <li><a href="./mygarage.html">Mənim qarajım</a></li>
-                    <li><a href="">Qeyd edilənlər</a></li>
-                    <li><a href="">Yeni elan</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section>
-            <div>
-                <div class="container">
-                    <h1>Login Form</h1>
-                    <form id="loginForm">
-                      <label for="username">Username</label>
-                      <input type="text" id="username" required>
-                
-                      <label for="password">Password</label>
-                      <input type="password" id="password" required>
-                
-                      <input type="submit" value="Login" >
-                    </form>
-                  </div>
-            </div>
-        </section>
-    </main>
+<body>
+  <header>
+    <div class="header-box">
+      <h2>Durba.az</h2>
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <li><a href="./index.html">Ana səhifə</a></li>
+          <li><a href="./avtosahe.html">Avto sahə</a></li>
+          <li><a href="./mygarage.html">Mənim qarajım</a></li>
+          <li><a href="">Qeyd edilənlər</a></li>
+          <li><a href="">Yeni elan</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="my-garage">
+
+    </section>
+    <section class="login-page">
+      <div class="content">
+        <h1>Admin: REDO</h1>
+        <form id="loginForm">
+          <label for="username">Username</label>
+          <input type="text" id="username" required>
+
+          <label for="password">Password</label>
+          <input type="password" id="password" required>
+
+          <input class="loginbtn" type="submit" value="Login">
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="mygarage.js"></script>
 </body>
 
 </html>
