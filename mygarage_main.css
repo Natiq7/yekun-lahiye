@@ -21,7 +21,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000116;
 }
 
 .slider{
@@ -55,8 +54,8 @@
 
 .slider .slide .info{
   position: absolute;
-  color: #222;
-  background: rgba(255, 255, 255, 0.3);
+  color: black;
+  background: rgba(255, 255, 255, 0.5);
   width: 75%;
   margin-top: 50px;
   margin-left: 50px;
