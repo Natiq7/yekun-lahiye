@@ -23,6 +23,10 @@ nextBtn.addEventListener("click", () => {
 
   slides[slideNumber].classList.add("active");
   slideIcons[slideNumber].classList.add("active");
+
+  const fon = document.querySelector('.my-garage-fon')
+  const img = slides[slideNumber].querySelector('img').src
+  fon.style.backgroundImage = `url('${img}')`
 });
 
 //image slider previous button
@@ -42,6 +46,10 @@ prevBtn.addEventListener("click", () => {
 
   slides[slideNumber].classList.add("active");
   slideIcons[slideNumber].classList.add("active");
+
+  const fon = document.querySelector('.my-garage-fon')
+  const img = slides[slideNumber].querySelector('img').src
+  fon.style.backgroundImage = `url('${img}')`
 });
 
 //image slider autoplay
@@ -64,6 +72,10 @@ var repeater = () => {
 
     slides[slideNumber].classList.add("active");
     slideIcons[slideNumber].classList.add("active");
+    
+    const fon = document.querySelector('.my-garage-fon')
+    const img = slides[slideNumber].querySelector('img').src
+    fon.style.backgroundImage = `url('${img}')`
   }, 4000);
 }
 repeater();

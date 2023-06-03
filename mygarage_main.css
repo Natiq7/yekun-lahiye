@@ -10,10 +10,21 @@
 
 .my-garage{
     height: 100vh;
-      background-image: url("./img/a1.jpeg");
-      background-repeat: no-repeat;
-      background-size: 80%;
-      background-position: center;
+    position: relative;
+}
+.my-garage-fon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  filter: blur(2px);
+  background-image:  url('./img/a1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 2s;
 }
 
 .a{
