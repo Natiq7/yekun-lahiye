@@ -10,23 +10,11 @@
 
 .my-garage{
     height: 100vh;
-      position: relative;
+      background-image: url("./img/a1.jpeg");
+      background-repeat: no-repeat;
+      background-size: 80%;
+      background-position: center;
 }
-
-.my-garage::before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  filter: blur(2px);
-  background-image: url("./img/a1.jpeg");
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-position: center;
-}
-
-/* my_garage -> img no css bgimage */
 
 .a{
   height: 100vh;

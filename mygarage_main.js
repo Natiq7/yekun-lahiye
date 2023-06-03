@@ -23,9 +23,6 @@ nextBtn.addEventListener("click", () => {
 
   slides[slideNumber].classList.add("active");
   slideIcons[slideNumber].classList.add("active");
-  const garage = document.querySelector('.my-garage')
-  const link = slides[slideNumber].querySelector('img').src
-  garage.style.backgroundImage = `url(${link})`
 });
 
 //image slider previous button
@@ -67,8 +64,6 @@ var repeater = () => {
 
     slides[slideNumber].classList.add("active");
     slideIcons[slideNumber].classList.add("active");
-
-
   }, 4000);
 }
 repeater();
