@@ -12,9 +12,9 @@ var questions = [
         choices: {
             a: "MERCEDES",
             b: "BMW",
-            c: "AUDI"
-            // d: "FORD"
-            // e: "TOYOTA"
+            c: "AUDI",
+            d: "FORD",
+            e: "TOYOTA"
         },
         // answer: "c"
     },
@@ -44,7 +44,13 @@ var questions = [
             // c: "Texas"
         },
         // answer: "a"
+    },
+    {
+        question: "Beləliklə sizin vaxtınız boşa getdi Yəni zırt elan qoydun)",
+       
+        // answer: "a"
     }
+
 ];
 
 function quiz(){

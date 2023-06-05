@@ -11,7 +11,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
       location.href = './mygarage_main.html'
       // Redirect to a new page or perform other actions
     } else {
-      alert("Invalid username or password");
+      alert("Burunuvu bilmediyin yere soxma)");
       // Clear form fields or show error message
     }
   });
