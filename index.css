@@ -14,6 +14,7 @@ body {
 /* HEADER */
 .header-box {
   height: 60px;
+  font-family: sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -235,6 +236,11 @@ body {
   box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
   border-radius: 17px;
   position: relative;
+  transition: 1s;
+}
+
+.avto-box:hover {
+  transform: scale(1.1);
 }
 
 .avto-btn {

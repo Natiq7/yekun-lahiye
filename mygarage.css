@@ -1,6 +1,3 @@
-/* 
-
-} */
 
 .login-page{
   width: 100%;
@@ -45,3 +42,10 @@
     height: 600px;
   }
 
+
+  .inputname, .inputkey{
+    width: 90%;
+    height: 25px;
+    border-radius: 7px;
+    padding: 5px;
+  }
