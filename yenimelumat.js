@@ -5,7 +5,6 @@ var questions = [
             a: "Hə",
             b: "Yox",
         },
-        // answer: "a"
     },
     {
         question: "MERCEDES,BMW,AUDI,FORD,TOYOTA?",
@@ -16,39 +15,31 @@ var questions = [
             d: "FORD",
             e: "TOYOTA"
         },
-        // answer: "c"
     },
     {
         question: "Atalar sözü hansidir?",
         choices: {
             a: "Sürmə yüz Yaşa yüz!",
             b: "Yavaş sür Həmşə sür!",
-            // c: "8"
         },
-        // answer: "b"
     },
     {
         question: "Avtomobil yenidir yoxsa təzə?",
         choices: {
             a: "Yeni",
             b: "Təzə",
-            // c: "Springbokgit"
         },
-        // answer: "b"
     },
     {
         question: "Sonuncu sual əminsənki elan yerləştirə biləcəksən?",
         choices: {
             a: "He",
             b: "Yox",
-            // c: "Texas"
         },
-        // answer: "a"
     },
     {
         question: "Beləliklə sizin vaxtınız boşa getdi Yəni zırt elan qoydun)",
        
-        // answer: "a"
     }
 
 ];
