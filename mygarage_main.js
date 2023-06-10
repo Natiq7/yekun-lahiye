@@ -4,9 +4,9 @@ const prevBtn = document.querySelector(".prev-btn");
 const slides = document.querySelectorAll(".slide");
 const slideIcons = document.querySelectorAll(".slide-icon");
 const numberOfSlides = slides.length;
-var slideNumber = 0;
+let slideNumber = 0;
 
-//image slider next button
+//şəkil kaydırıcısının növbəti düyməsi
 nextBtn.addEventListener("click", () => {
   slides.forEach((slide) => {
     slide.classList.remove("active");
@@ -29,7 +29,7 @@ nextBtn.addEventListener("click", () => {
   fon.style.backgroundImage = `url('${img}')`
 });
 
-//image slider previous button
+//şəkil kaydırıcısının əvvəlki düyməsi
 prevBtn.addEventListener("click", () => {
   slides.forEach((slide) => {
     slide.classList.remove("active");
@@ -52,10 +52,10 @@ prevBtn.addEventListener("click", () => {
   fon.style.backgroundImage = `url('${img}')`
 });
 
-//image slider autoplay
-var playSlider;
+//şəkil slayderinin avtomatik oynatılması
+let playSlider;
 
-var repeater = () => {
+let repeater = () => {
   playSlider = setInterval(function(){
     slides.forEach((slide) => {
       slide.classList.remove("active");
@@ -80,12 +80,12 @@ var repeater = () => {
 }
 repeater();
 
-//stop the image slider autoplay on mouseover
+//mouseover üzərində şəkil slayderinin avtomatik oynatılmasını dayandırın
 slider.addEventListener("mouseover", () => {
   clearInterval(playSlider);
 });
 
-//start the image slider autoplay again on mouseout
+//mouseout üzərində yenidən şəkil slayderinin avtomatik oynatılmasını başladın
 slider.addEventListener("mouseout", () => {
   repeater();
 });

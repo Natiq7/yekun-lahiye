@@ -1,18 +1,23 @@
 document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault();// Formanın təqdim edilməsinin qarşısını alın
   
-    // Get username and password values
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
+ // İstifadəçi adı və parol dəyərlərini əldə edin
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
   
-    // Perform validation (dummy check)
+   // Doğrulama həyata keçirin (dummy yoxlama)
+
     if (username === "Babayev" && password === "babayev23") {
-      // alert("Login successful");
+   // xəbərdarlıq ("Giriş uğurludur");
+
       location.href = './mygarage_main.html'
-      // Redirect to a new page or perform other actions
+    
+      // alert("Login successful");
+
+
     } else {
-      alert("Burunuvu bilmediyin yere soxma)");
-      // Clear form fields or show error message
+      alert("Burunuvu bilmediyin yere soxma!)");
+  
     }
   });
   

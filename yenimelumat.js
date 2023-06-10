@@ -21,7 +21,7 @@ var questions = [
     {
         question: "Atalar sözü hansidir?",
         choices: {
-            a: "Süurmə yüz Yaşa yüz!",
+            a: "Sürmə yüz Yaşa yüz!",
             b: "Yavaş sür Həmşə sür!",
             // c: "8"
         },
@@ -92,20 +92,20 @@ function quiz(){
 function results(){
 
     //gather answer containers from quiz
-    var answerContainers = quizContainer.querySelectorAll(".choices");
+    let answerContainers = quizContainer.querySelectorAll(".choices");
 
     // keep track of user's answers
-    var numCorrect = 0;
+    let numCorrect = 0;
 
     // for each question 
     questions.forEach((currentQuestion, questionNumber) => {
         // find selected answer 
-        var answerContainer = answerContainers[questionNumber];
+        let answerContainer = answerContainers[questionNumber];
         // selects which radio button has been checked
-        var selector = `input[name=question${questionNumber}]:checked`;
+        let selector = `input[name=question${questionNumber}]:checked`;
         // userAnswer is which button has been checked
-        // {} empty object for if user didn't select answer
-        var userAnswer = (answerContainer.querySelector(selector) || {}).value;
+        // {} empty object for if user didn't select answerlet
+        let userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
         // if answer is correct
         if(userAnswer === currentQuestion.answer) {
@@ -161,19 +161,19 @@ function previousSlide() {
     progressBar.style.width = progressPercent + "%";
 }
 
-var progressBar = document.getElementById("progress-bar");
-var progressPercent = 0;
+let progressBar = document.getElementById("progress-bar");
+let progressPercent = 0;
 
-var quizContainer = document.getElementById("quiz");
-var resultsContainer = document.getElementById("results");
-var submitButton = document.getElementById("submit");
+let quizContainer = document.getElementById("quiz");
+let resultsContainer = document.getElementById("results");
+let submitButton = document.getElementById("submit");
 
 //display quiz 
 quiz();
 
-var previousButton = document.getElementById("previous");
-var nextButton = document.getElementById("next");
-var slides = document.querySelectorAll(".slide");
+let previousButton = document.getElementById("previous");
+let nextButton = document.getElementById("next");
+let slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 
 // Display Slides

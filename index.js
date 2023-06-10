@@ -111,6 +111,12 @@ form.addEventListener('submit', (e) => {
 });
 
 
+
+
+// form.addEventListener('reset', () => {
+//     location.reload()
+// })
+
 document.querySelectorAll('.avto-btn').forEach(btn => {
     btn.addEventListener('click', x => {
         const div = x.target.parentElement.parentElement.parentElement;
